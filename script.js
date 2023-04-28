@@ -7,7 +7,7 @@ function mostrarTarjeta(){
         for(recurso of data){
             tarjetaHTML.innerHTML +=`
                 <div class="tarjeta-recurso" id="tarjeta-recurso">
-                <div class="tecnologia-recurso">${recurso.tecnologia}</div>
+                <div class="tecnologia-recurso">${recurso.tecnologia_relacionada}</div>
                 <div class="informacion-recurso">
                     <div class="titulo-recurso">${recurso.titulo}</div>
                     <div class="descripcion-recurso">${recurso.descripcion}</div>

@@ -13,7 +13,7 @@
 *{
     box-sizing: border-box;
     margin: 0%;
-    padding: 0%;
+    
 }
 
 body {
@@ -25,10 +25,7 @@ body {
 
   }
 
-main{
-    display: flex;
-    width: 100vw;
-}
+
 
 section{
     margin: 0 20% 0 20% ;
@@ -122,7 +119,7 @@ textarea{
     resize: vertical;
 }
 
-button form{
+.boton-form{
    
    font-weight: bold;
    margin-top: 20px;
@@ -135,12 +132,12 @@ button form{
    cursor: pointer;
 }
 
-button:hover{
+.boton-form:hover{
     background-color: var(--color-quinto);
 
 }
 
-button:active{
+.boton-form:active{
     border: none;
     background-color: var(--color-cuarto);
     color:antiquewhite;
@@ -162,6 +159,11 @@ input:focus-visible, textarea:focus-visible, select:focus-visible{
 }
 
 /*tarejeta recurso */
+
+#tarjeta-recurso{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .tarjeta-recurso{
     display: flex;
@@ -196,6 +198,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible{
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 5px;
+    
     
 }
 
