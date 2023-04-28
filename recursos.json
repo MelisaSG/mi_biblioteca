@@ -1,0 +1,106 @@
+[
+{
+   "titulo": "Introducción a HTML",
+   "url": "https://www.w3schools.com/html/",
+   "tecnologia_relacionada": ["HTML"],
+   "tipo_recurso": "Tutorial",
+   "descripcion": "Una introducción a HTML, el lenguaje de marcado utilizado para crear páginas web."
+},
+
+ {
+   "titulo": "CSS para principiantes",
+   "url": "https://www.codecademy.com/learn/learn-css",
+   "tecnologia_relacionada": ["CSS"],
+   "tipo_recurso": "Curso en línea",
+   "descripcion": "Un curso en línea para principiantes que cubre los fundamentos de CSS, el lenguaje utilizado para dar estilo a las páginas web."
+},
+
+{
+   "titulo": "JavaScript: el lenguaje de la web",
+   "url": "https://developer.mozilla.org/es/docs/Learn/JavaScript",
+   "tecnologia_relacionada": ["JavaScript"],
+   "tipo_recurso": "Tutorial",
+   "descripcion": "Un tutorial completo que cubre los fundamentos de JavaScript, el lenguaje de programación utilizado para crear interactividad en las páginas web."
+},
+
+{
+   "titulo": "Bootstrap: diseño web responsivo",
+   "url": "https://getbootstrap.com/",
+   "tecnologia_relacionada": ["Bootstrap", "CSS"],
+   "tipo_recurso": "Framework",
+   "descripcion": "Un framework popular de CSS para diseño web responsivo, que permite adaptar el diseño de una página web a diferentes tamaños de pantalla."
+},
+
+{
+   "titulo": "React: una biblioteca de JavaScript para crear interfaces de usuario",
+   "url": "https://reactjs.org/",
+   "tecnologia_relacionada": ["React", "JavaScript"],
+   "tipo_recurso": "Biblioteca",
+   "descripcion": "Una biblioteca popular de JavaScript para crear interfaces de usuario de alta calidad, utilizada por muchas empresas grandes."
+},
+
+ {
+   "titulo": "Vue.js: el framework progresivo de JavaScript",
+   "url": "https://vuejs.org/",
+   "tecnologia_relacionada": ["Vue.js", "JavaScript"],
+   "tipo_recurso": "Framework",
+   "descripcion": "Un framework progresivo de JavaScript para construir interfaces de usuario interactivas y escalables."
+},
+
+{
+   "titulo": "Node.js: el entorno de tiempo de ejecución de JavaScript",
+   "url": "https://nodejs.org/",
+   "tecnologia_relacionada": ["Node.js", "JavaScript"],
+   "tipo_recurso": "Entorno de tiempo de ejecución",
+   "descripcion": "Un entorno de tiempo de ejecución de JavaScript que permite ejecutar código de JavaScript fuera del navegador."
+},
+
+ {
+   "titulo": "Express.js: un framework de Node.js para crear aplicaciones web",
+   "url": "https://expressjs.com/",
+   "tecnologia_relacionada": ["Express.js", "Node.js", "JavaScript"],
+   "tipo_recurso": "Framework",
+   "descripcion": "Un framework popular de Node.js para crear aplicaciones web y APIs."
+},
+
+{
+   "titulo": "jQuery: biblioteca de JavaScript para manipular el DOM",
+   "url": "https://jquery.com/",
+   "tecnologia_relacionada": ["jQuery", "JavaScript"],
+   "tipo_recurso": "Biblioteca",
+   "descripcion": "Una biblioteca popular de JavaScript para manipular el DOM de una página web y hacerla más interactiva."
+   },
+   
+   {
+   "titulo": "D3.js: biblioteca de JavaScript para visualización de datos",
+   "url": "https://d3js.org/",
+   "tecnologia_relacionada": ["D3.js", "JavaScript"],
+   "tipo_recurso": "Biblioteca",
+   "descripcion": "Una biblioteca de JavaScript para crear visualizaciones de datos interactivas y personalizadas en una página web."
+   },
+   
+   {
+   "titulo": "Chart.js: biblioteca de JavaScript para gráficos y diagramas",
+   "url": "https://www.chartjs.org/",
+   "tecnologia_relacionada": ["Chart.js", "JavaScript"],
+   "tipo_recurso": "Biblioteca",
+   "descripcion": "Una biblioteca de JavaScript para crear gráficos y diagramas en una página web de forma fácil y personalizable."
+   },
+   
+   {
+   "titulo": "Materialize: framework de diseño responsivo basado en Material Design",
+   "url": "https://materializecss.com/",
+   "tecnologia_relacionada": ["Materialize", "CSS"],
+   "tipo_recurso": "Framework",
+   "descripcion": "Un framework de CSS basado en Material Design de Google, que ofrece una gran variedad de componentes para el diseño responsivo de una página web."
+   },
+   
+   {
+   "titulo": "Animate.css: biblioteca de CSS para animaciones en la página web",
+   "url": "https://animate.style/",
+   "tecnologia_relacionada": ["Animate.css", "CSS"],
+   "tipo_recurso": "Biblioteca",
+   "descripcion": "Una biblioteca de CSS para agregar animaciones a elementos de una página web sin tener que escribir código JavaScript adicional."
+   }
+]
+

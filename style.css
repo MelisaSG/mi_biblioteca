@@ -120,7 +120,7 @@ textarea{
     resize: vertical;
 }
 
-button{
+button form{
    
    font-weight: bold;
    margin-top: 20px;
@@ -158,6 +158,80 @@ input:focus-visible, textarea:focus-visible, select:focus-visible{
     outline: 3px solid  var(--color-terciario);
     border-radius: 3px;
 }
+
+/*tarejeta recurso */
+
+.tarjeta-recurso{
+    display: flex;
+    height: 230px;
+    width: 300px;
+    border: 3px solid var(--color-terciario);
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.746);
+    justify-content: space-between;
+}
+
+.tecnologia-recurso{
+    font-weight: bold;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-terciario);
+    justify-content: flex-end;
+}
+
+.informacion-recurso{
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+}
+
+.titulo-recurso{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+    
+}
+
+.descripcion-recurso{
+    box-sizing: content-box;
+    margin: 2px 2px 2px 10px;
+    
+}
+
+.url{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.url a {
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--color-quinto);
+    background-color: var(--color-terciario);
+    color: #3e3d3d;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+    cursor: pointer;
+ }
+ 
+.url a:hover{
+    background-color: var(--color-quinto);
+
+}
+
+.url a:active{
+    border: none;
+    background-color: var(--color-cuarto);
+    color:antiquewhite;
+    box-shadow: -1px -1px 5px 1px rgba(0, 0, 0, 0.59);
+}
+ 
+
 
 footer{
     display: flex;
