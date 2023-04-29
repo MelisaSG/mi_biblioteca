@@ -15,46 +15,24 @@
         <div class="titulo">Mi_biblioteca </div>
         <div class="menu"><a href="recursos.html">Recursos</a></div>
     </header>
-
-    <section>
-        <div id="presentacion">
-            <h1>Hola! Soy Melisa</h1>
-            
-            <p>Estoy empezando en el mundo de la programación web </p>
-
-            <p>Mi objetivo es poder trabajar en el futuro. Aunque mientra mas me meto en el tema, mas amplio me parece y 
-                decidi crear esta página para poder organizarme mejor.</p>
-        </div>
-
-        <div id="cursos">
-            <h2>Actualmente estoy cursando</h2>
-            <ul>
-                <li>Bootcamp full-stack en Undefined Academy</li>
-                <li>Desarrollo Web Inicial en UTN Argentina Programa 4.0 </li>
-                <li>Tecnicatura en Desarrollo Web y aplicaciones digitales en ISPC</li>
-            </ul>
-
-            
-        </div>
-
-    </section>
-    <section>
-        <h2>Cargar nuevo recurso</h2>
-        <form>
+    <h2>Cargar nuevo recurso</h2>
+    <section id="agregar-recurso">
+        <form id="formulario">
             <div class="form-contact">
+               
                 <label for="titulo">Titulo</label>
                 <input id="titulo" type="text" placeholder="Ingrese un titulo" required>
             </div>
-            <div class="form-contact">
+            <div class="form-contact" >
                 <label for="url">Enlace</label>
                 <input id="url" type="url" placeholder="Ingrese el enlace" required>
             </div>
             <div class="form-contact">
-                <fieldset>
+                <fieldset id="tecnologia">
                     <legend>Tecnología</legend>
-                    <input id="html" name="tipo" type="checkbox"><label for="html">HTML</label>
-                    <input id="css" name="tipo" type="checkbox"><label for="css">CSS</label>
-                    <input id="javascript" name="tipo" type="checkbox"><label for="script">JavaScript</label>
+                    <input id="HTML" value="HTML" name="tipo" type="checkbox"><label for="HTML">HTML</label>
+                    <input id="CSS" value="CSS" name="tipo" type="checkbox"><label for="CSS">CSS</label>
+                    <input id="JavaScript" value="JavaScript" name="tipo" type="checkbox"><label for="JavaScript">JavaScript</label>
                 </fieldset>
             </div>
             <div class="form-contact">
@@ -71,8 +49,8 @@
                 </select>
             </div>
             <div class="form-contact">
-                <label for="description">Descripción breve</label>
-                <textarea id="description" cols="40" rows="5" required></textarea>
+                <label for="descripcion">Descripción breve</label>
+                <textarea id="descripcion" cols="40" rows="5" required></textarea>
             </div>
             <div class="form-contact">
                 <label for="terms">
@@ -80,14 +58,14 @@
                     <span>No estoy enviando spam y elegí las opciones correctas</span>
                 </label>
             </div>
-            <button class="boton-form">ENVIAR</button>
+            <button class="boton-form" >ENVIAR</button>
         </form>
     </section>
 
     <footer>
         <a href="https://github.com/MelisaSG">Mi GitHub <i class="bi bi-github"></i></a>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>

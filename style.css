@@ -75,12 +75,13 @@ header{
     line-height: 1.5;
     margin: 0 auto;
     max-width: 50em;
+    margin:20px;
 }
 
 #cursos{
     margin-top: 20px;
     line-height: 1.5;
-    margin: 0 auto;
+    margin: 20px;
     max-width: 50em;
 }
 
@@ -97,6 +98,14 @@ header{
     height: auto;
     padding: 50px 0px 00px 0px;
     display: flex;
+}
+
+h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px;
+   font-size: 40px;
 }
 
 .form-contact{
@@ -167,8 +176,8 @@ input:focus-visible, textarea:focus-visible, select:focus-visible{
 
 .tarjeta-recurso{
     display: flex;
-    height: 50vh;
-    width: 50vh;
+    height: 46vh;
+    width: 46vh;
     border: 3px solid var(--color-terciario);
     padding: 10px;
     margin: 20px;
@@ -188,24 +197,23 @@ input:focus-visible, textarea:focus-visible, select:focus-visible{
     justify-content: flex-end;
 }
 
-.informacion-recurso{
-    display: flex;
-    flex-direction: column;
-    word-break: break-all;
-}
 
 .titulo-recurso{
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 5px;
-    
+    margin: 2px 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    word-break: break-word;
     
 }
 
 .descripcion-recurso{
     box-sizing: content-box;
     margin: 2px 2px 2px 10px;
-    
+    display: flex;
+    flex-direction: column;
+    word-break: break-word;
 }
 
 .url{

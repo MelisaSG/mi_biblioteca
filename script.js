@@ -1,24 +1,25 @@
-const tarjetaHTML = document.querySelector("#tarjeta-recurso")
+const formulario = document.querySelector("#agregar-recurso")
+const datos = document.querySelector("#formulario")
+const recursos = []
 
-function mostrarTarjeta(){
-    fetch("recursos.json")
-    .then(response => response.json())
-    .then(data => {
-        for(recurso of data){
-            tarjetaHTML.innerHTML +=`
-                <div class="tarjeta-recurso" id="tarjeta-recurso">
-                <div class="tecnologia-recurso">${recurso.tecnologia_relacionada}</div>
-                <div class="informacion-recurso">
-                    <div class="titulo-recurso">${recurso.titulo}</div>
-                    <div class="descripcion-recurso">${recurso.descripcion}</div>
-                </div>
-                <div class="url"><a href="${recurso.url}">Click aquí</a></div>
-                </div>
-            `
-        }
+
+formulario.addEventListener("submit", (event) =>{
+    event.preventDefault()
+    const checkboxes = document.querySelectorAll('input[type=checkbox]:checked');
+    const tecnologia = [];
+    checkboxes.forEach((checkbox) => {
+        tecnologia.push(checkbox.value);
+        });
+       
+    
+    recursos.push({
+        "titulo": datos.titulo.value,
+        "url": datos.url.value,
+        "tecnologia_relacionada": tecnologia[0],
+        "tipo_recurso": datos.type.value,
+        "descripcion": datos.descripcion.value,
     })
+     
+    console.log(recursos)
+})
 
-    .catch(error => console.log(error))
-}
-
-mostrarTarjeta()
